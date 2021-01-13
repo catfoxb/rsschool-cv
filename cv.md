@@ -12,3 +12,14 @@ Half a year ago I became interested in web development. After completing the cou
 ```
 array.sort((a, b) => a - b);
 ```
+
+## **Skills**
+- **Intermediate:** HTML, CSS
+- **Low:** JS, MySQL, PHP
+
+## Experience and Education
+- Skillbox - PHp
+- HTML Academy - HTML/CSS
+
+## English
+Elementary (A1)
