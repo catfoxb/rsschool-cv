@@ -18,7 +18,7 @@ array.sort((a, b) => a - b);
 - **Low:** JS, MySQL, PHP
 
 ## Experience and Education
-- Skillbox - PHp
+- Skillbox - PHP
 - HTML Academy - HTML/CSS
 
 ## English
