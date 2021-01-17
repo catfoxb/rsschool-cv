@@ -4,9 +4,88 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CV</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-  
+  <header class="header">
+    <div class=header__logo"><a href="#">Borovikov Yury</a></div>
+    <nav class="header__nav">
+      <ul class="menu">
+        <li class="menu__item"><a class="menu__link" href="#">home</a></li>
+        <li class="menu__item"><a class="menu__link" href="#">About</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="main">
+    <section class="first-screen">
+      <div class="flex-container">
+        <div class="first-screen__photo">
+          <img src="" alt="">
+        </div>
+        <div class="first-screen__content">
+          <div class="first-screen__subtitle">Hi there!</div>
+          <div class="first-screen__title">I am <span class="first-screen__title--green">learning JavaScript</span></div>
+          <div class="first-screen__text">A year ago I became interested in web development. After completing the RS School course, I plan to start developing with React.</div>
+          <div class="social">
+            <ul class="social__list">
+              <li class="social__item"><a class="social__link" href="#">Gmail</a></li>
+              <li class="social__item"><a class="social__link" href="#">in</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about-me">
+      <div class="wrapper">
+        <h2 class="about-me__title">About me</h2>
+        <div class="about-me__content">
+          <div class="personal-info">
+            <h3 class="personal-info__title">Personal info</h3>
+            <ul class="personal-info__list">
+              <li class="personal-info__item"><span>First Name:</span> Yury</li>
+              <li class="personal-info__item"><span>Last Name:</span> Borovikov</li>
+              <li class="personal-info__item"><span>Age:</span> 30 Years</li>
+              <li class="personal-info__item"><span>English:</span> Elementary (A1)</li>
+            </ul>
+            <ul class="personal-info__list">
+              <li class="personal-info__item"><span>Phone:</span> <a href="tel:+375296707763">+375296707763</a></li>
+              <li class="personal-info__item"><span>Email:</span> <a href="mailto:borovikov.live@gmail.com">borovikov.live@gmail.com</a></li>
+              <li class="personal-info__item"><span>Skype:</span> 24roopii</li>
+            </ul>
+          </div>
+          <div class="skils">
+            <h3 class="skils__title">Skills</h3>
+            <ul class="skils__list">
+              <li class="skils__item">
+                <div class="skils__name">HTML</div>
+                <div class="skils__row"><span class="skils__procent">75</span></div>
+              </li>
+              <li class="skils__item">
+                <div class="skils__name">CSS</div>
+                <div class="skils__row"><span class="skils__procent">75</span></div>
+              </li>
+              <li class="skils__item">
+                <div class="skils__name">JavaScript</div>
+                <div class="skils__row"><span class="skils__procent">30</span></div>
+              </li>
+              <li class="skils__item">
+                <div class="skils__name">PHP</div>
+                <div class="skils__row"><span class="skils__procent">20</span></div>
+              </li>
+            </ul>
+          </div>
+          <div class="aducation">
+            <h3 class="skils__title">Education</h3>
+            <div class="aducation__list">
+              <div class="aducation__item">HTML Academy - HTML/CSS</div>
+              <div class="aducation__item">Skillbox - PHP</div>
+              <div class="aducation__item">RS School - JavaScript</div>
+            </div>
+          </div>
+          <div class="example-code"><code>array.sort((a, b) => a - b);</code></div>
+        </div>
+      </div>
+    </section>
+  </main>
 </body>
 </html>
