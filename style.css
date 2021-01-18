@@ -1,0 +1,209 @@
+html {
+  font-size: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  max-width: 114rem;
+  margin: 0 auto;
+}
+
+.header {
+  width: 100%;
+  position: fixed;
+
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+  background-color: rgba(0,0,0,0.8);
+
+  z-index: 6;
+}
+
+.wrapper--header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__logo {
+  display: flex;
+  align-items: center;
+}
+
+.header__logo-text {
+  font-size: 2.6rem;
+  letter-spacing: .1rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+
+.header__nav {
+
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu__item {
+
+}
+
+.menu__link {
+  display: block;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #ffffff;
+  padding: 1.5rem 1rem;
+}
+
+.main {
+  
+}
+
+.first-screen {
+  background: url('./main-banner.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 6rem 0;
+
+  position: relative;
+}
+
+.first-screen::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.8);
+}
+
+.flex-container {
+  display: flex;
+  z-index: 5;
+}
+
+.first-screen__photo {
+  width: 28rem;
+  height: 28rem;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 1rem solid rgba(255,255,255,0.1);
+}
+
+.first-screen__photo-img {
+  
+}
+
+.first-screen__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  max-width: 52rem;
+  padding-left: 3rem;
+}
+
+.first-screen__subtitle {
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0.09rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.first-screen__title {
+  color: #ffffff;
+  font-size: 4.5rem;
+  font-weight: 400;
+  letter-spacing: .1rem;
+  margin: 0 0 1.5rem;
+}
+
+.first-screen__title--green {
+  color: #64bd00;
+  font-weight: 700;
+}
+
+.first-screen__text {
+  color: #ffffff;
+  max-width: 51rem;
+  font-size: 1.5rem;
+  letter-spacing: 0.02rem;
+  margin: 0 0 1.5rem;
+
+}
+.social {
+}
+
+.social__list {
+  display: flex;
+}
+
+.social__item {
+}
+
+.social__item:not(:first-child) {
+  padding-left: 1rem;
+}
+
+.social__link {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.about-me {
+}
+.wrapper {
+}
+.about-me__title {
+}
+.about-me__content {
+}
+.personal-info {
+}
+.personal-info__title {
+}
+.personal-info__list {
+}
+.personal-info__item {
+}
+.skils {
+}
+.skils__title {
+}
+.skils__list {
+}
+.skils__item {
+}
+.skils__name {
+}
+.skils__row {
+}
+.skils__procent {
+}
+.aducation {
+}
+.aducation__list {
+}
+.aducation__item {
+}
+.example-code {
+}
