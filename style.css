@@ -58,9 +58,13 @@ a {
   display: block;
   font-size: 1.4rem;
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: 700;
   color: #ffffff;
   padding: 1.5rem 1rem;
+}
+
+.menu__link--active {
+  color: #64bd00;
 }
 
 .main {
@@ -144,7 +148,7 @@ a {
 .first-screen__text {
   color: #ffffff;
   max-width: 51rem;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   letter-spacing: 0.02rem;
   margin: 0 0 1.5rem;
 
