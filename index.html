@@ -4,26 +4,28 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CV</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./reset.css">
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
   <header class="header">
     <div class="wrapper wrapper--header">
-      <div class="header__logo"><a class="header__logo-text" href="#">Borovikov Yury</a></div>
+      <div class="header__logo"><a class="header__logo-text" href="/">Borovikov Yury</a></div>
       <nav class="header__nav">
         <ul class="menu">
-          <li class="menu__item"><a class="menu__link menu__link--active" href="#">home</a></li>
-          <li class="menu__item"><a class="menu__link" href="#">About</a></li>
+          <li class="menu__item"><a class="menu__link" href="#first-screen">home</a></li>
+          <li class="menu__item"><a class="menu__link" href="#about-me">About</a></li>
         </ul>
       </nav>
     </div>
   </header>
-  <main class="main">
+  <main class="main" id="first-screen">
     <section class="first-screen">
       <div class="flex-container">
         <div class="first-screen__photo">
-          <img class="first-screen__photo-img" src="./photo.jpg" alt="">
+          <img class="first-screen__photo-img" src="photo.jpg" alt="">
         </div>
         <div class="first-screen__content">
           <div class="first-screen__subtitle">Hi there!</div>
@@ -38,54 +40,57 @@
         </div>
       </div>
     </section>
-    <section class="about-me">
+    <section class="about-me" id="about-me">
       <div class="wrapper">
-        <h2 class="about-me__title">About me</h2>
+        <h2 class="about-me__title">About <span class="about-me__title--color">me</span></h2>
         <div class="about-me__content">
           <div class="personal-info">
-            <h3 class="personal-info__title">Personal info</h3>
+            <h3 class="personal-info__title">Personal <span class="personal-info__title--color">info</span></h3>
             <ul class="personal-info__list">
-              <li class="personal-info__item"><span>First Name:</span> Yury</li>
-              <li class="personal-info__item"><span>Last Name:</span> Borovikov</li>
-              <li class="personal-info__item"><span>Age:</span> 30 Years</li>
-              <li class="personal-info__item"><span>English:</span> Elementary (A1)</li>
+              <li class="personal-info__item"><span>First Name:</span> <span>Yury</span></li>
+              <li class="personal-info__item"><span>Last Name:</span> <span>Borovikov</span></li>
+              <li class="personal-info__item"><span>Age:</span> <span>30 years</span></li>
+              <li class="personal-info__item"><span>English:</span> <span>Elementary (A1)</span></li>
             </ul>
             <ul class="personal-info__list">
               <li class="personal-info__item"><span>Phone:</span> <a href="tel:+375296707763">+375296707763</a></li>
               <li class="personal-info__item"><span>Email:</span> <a href="mailto:borovikov.live@gmail.com">borovikov.live@gmail.com</a></li>
-              <li class="personal-info__item"><span>Skype:</span> 24roopii</li>
+              <li class="personal-info__item"><span>Skype:</span> <span>24roopii</span></li>
             </ul>
           </div>
-          <div class="skils">
-            <h3 class="skils__title">Skills</h3>
-            <ul class="skils__list">
-              <li class="skils__item">
-                <div class="skils__name">HTML</div>
-                <div class="skils__row"><span class="skils__procent">75</span></div>
+          <div class="skills">
+            <h3 class="skills__title">Skills</h3>
+            <ul class="skills__list">
+              <li class="skills__item">
+                <div class="skills__name"><span>HTML</span><span>70</span></div>
+                <div class="skills__row"><span class="skills__procent skills__procent--html"></span></div>
               </li>
-              <li class="skils__item">
-                <div class="skils__name">CSS</div>
-                <div class="skils__row"><span class="skils__procent">75</span></div>
+              <li class="skills__item">
+                <div class="skills__name"><span>CSS</span><span>70</span></div>
+                <div class="skills__row"><span class="skills__procent skills__procent--css"></span></div>
               </li>
-              <li class="skils__item">
-                <div class="skils__name">JavaScript</div>
-                <div class="skils__row"><span class="skils__procent">30</span></div>
+              <li class="skills__item">
+                <div class="skills__name"><span>JavaScript</span><span>25</span></div>
+                <div class="skills__row"><span class="skills__procent skills__procent--js"></span></div>
               </li>
-              <li class="skils__item">
-                <div class="skils__name">PHP</div>
-                <div class="skils__row"><span class="skils__procent">20</span></div>
+              <li class="skills__item">
+                <div class="skills__name"><span>PHP</span> <span>15</span></div>
+                <div class="skills__row"><span class="skills__procent skills__procent--php"></span></div>
               </li>
             </ul>
           </div>
-          <div class="aducation">
-            <h3 class="skils__title">Education</h3>
-            <div class="aducation__list">
-              <div class="aducation__item">HTML Academy - HTML/CSS</div>
-              <div class="aducation__item">Skillbox - PHP</div>
-              <div class="aducation__item">RS School - JavaScript</div>
+          <div class="education">
+            <h3 class="skills__title">Education</h3>
+            <div class="education__list">
+              <div class="education__item"><span>HTML Academy:</span> <span>HTML/CSS</span></div>
+              <div class="education__item"><span>Skillbox:</span> <span>PHP</span></div>
+              <div class="education__item"><span>RS School:</span> <span>JavaScript</span></div>
             </div>
           </div>
-          <div class="example-code"><code>array.sort((a, b) => a - b);</code></div>
+          <div class="example-code">
+            <h3 class="example-code__title">Code example</h3>
+            <code>array.sort((a, b) => a - b);</code>
+          </div>
         </div>
       </div>
     </section>
